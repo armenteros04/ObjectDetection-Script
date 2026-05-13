@@ -7,6 +7,12 @@
 
 En este proyecto realizado para la asignatura Pattern Recognition durante mi Erasmus en Ankara Üniversitesi, he implementado un sistema de detección de objetos en tiempo real usando el modelo **YOLOv8n** de Ultralytics. El sistema incluye seguimiento multiobjetivo mediante el algoritmo **BotSORT**, un contador de cruce de línea virtual configurable y registro en tiempo real por terminal.
 
+## **Previsualización**
+
+
+<img src="preview.png" />
+
+
 ## **Información importante**
 
 Para ejecutar el sistema de detección basta con poner en una terminal lo siguiente:
@@ -79,10 +85,6 @@ para cada detección en el frame:
 
 > ⚠️ El contador actual es **unidireccional** (de arriba a abajo). Un contador bidireccional que detecte entradas y salidas es una extensión natural para trabajo futuro.
 
-## **Previsualización**
-
-
-
 ## **Resultados experimentales**
 
 Rendimiento en FPS medido en el hardware de prueba:
@@ -102,15 +104,3 @@ Precisión del modelo YOLOv8n evaluado en COCO val2017:
 | Tamaño del modelo | 3.2M parámetros |
 
 Hardware utilizado: Intel Core i5-11400H · NVIDIA RTX 3050 Laptop 4GB · 16 GB RAM · Windows 10
-
-## **Stack tecnológico**
-
-| Componente | Herramienta |
-|---|---|
-| Lenguaje | Python 3.13.2 |
-| IDE | PyCharm 2024.3.2 |
-| Modelo de detección | YOLOv8n (Ultralytics) |
-| Algoritmo de tracking | BotSORT |
-| Framework deep learning | PyTorch |
-| Procesado de vídeo | OpenCV |
-| Computación numérica | NumPy |
