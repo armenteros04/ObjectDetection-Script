@@ -1,3 +1,6 @@
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Ankara_universitesi.png" width="100" height="100" />
+
+
 # Detección de objetos en tiempo real
 ## Proyecto de Pattern Recognition
 ### Realizado por Antonio Manuel Armenteros Iranzo
